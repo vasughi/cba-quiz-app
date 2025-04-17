@@ -1,10 +1,8 @@
-// This placeholder represents the full React component with 200+ questions inserted.
-// The actual code has been updated in the Canvas editor and is ready for download/export.
 
 import React, { useState } from 'react';
 
 const quizData = [
-  {
+{
     question: 'Which foundational business performance metrics are derivable from business architecture?',
     options: {
       A: 'Efficiency, effectiveness and impact',
@@ -14,7 +12,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'During the planning stage, a business architecture methodology enables which outcome?',
     options: {
       A: 'User story articulation',
@@ -24,7 +22,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which scenario describes a situation where multiple, parallel value streams would be used to design a business solution?',
     options: {
       A: 'A customer wants to restart an application for membership in an insurance plan',
@@ -34,7 +32,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Solution architecture:',
     options: {
       A: 'Informs the makeup and context of value streams and capability alignment',
@@ -44,7 +42,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is an attribute of capabilities?',
     options: {
       A: 'They map to other views of the business',
@@ -54,7 +52,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'How should a business architecture practitioner engage stakeholders to respond to an in flight initiative that does not align with a new company strategy?',
     options: {
       A: 'Reassess the identified solution and the overarching strategy driving the solution',
@@ -64,7 +62,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a benefit of information mapping?',
     options: {
       A: 'It provides a basis for building the capability map',
@@ -74,7 +72,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the main purpose of business architecture tooling?',
     options: {
       A: 'It ensures that desktop technologies are not used to manage the business architecture',
@@ -84,7 +82,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is important to consider in business capability outsourcing?',
     options: {
       A: 'Internal stakeholder mapping identifies capabilities that should be outsourced to third parties',
@@ -94,7 +92,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Business architecture positively impacts the ability of an organization to:',
     options: {
       A: 'Improve overall product quality',
@@ -104,7 +102,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'The set of competencies that illustrate the role of a business architecture practitioner are:',
     options: {
       A: 'Facilitation, influencing and leadership',
@@ -114,7 +112,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'An information mapping principle states that information:',
     options: {
       A: 'Manifests itself as a data model',
@@ -124,7 +122,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the primary role of the stakeholder in relation to stages of a value stream?',
     options: {
       A: 'Defining the stage',
@@ -134,7 +132,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which statement about policy is accurate?',
     options: {
       A: 'Policy may be adopted or proposed',
@@ -144,7 +142,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'A consultant is working on a business initiative involving three business units, each of which uses a different enterprise architecture framework. Which action should the consultant take to efficiently and effectively establish and leverage business architecture to form an integrated approach and solution?',
     options: {
       A: 'Define core business architecture domains for each business unit and then try to align them using\neach framework',
@@ -154,7 +152,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'In addition to value streams, the next two business architecture perspectives, in order of priority, that should be used in merger and acquisition analysis are:',
     options: {
       A: 'Stakeholders and information',
@@ -164,7 +162,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A benefit of having a capability map is that the map:',
     options: {
       A: 'Represents a business strategy',
@@ -174,7 +172,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A company has decided to merge three business units in order to achieve operational cost reduction. Which business architecture domain is used to identify potential overlaps or discrepancies?',
     options: {
       A: 'Policy',
@@ -184,7 +182,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A capability named Credit Risk Rating exists in five business units, each of which applies a variation of credit risk rating rules during operational processes. While rated as working optimally and assigned yellow or green on the individual business unit capability heat maps, it might be designated as red, indicating poorly functioning, on a heat map providing an aggregated view of capabilities because it:',
     options: {
       A: 'Provides inconsistent results across business units',
@@ -194,7 +192,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Compared to the business analyst role, the scope of the business architecture practitioner role is:',
     options: {
       A: 'Broader, represents the IT environment, and may help set project priorities',
@@ -204,7 +202,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is the definition of a capability?',
     options: {
       A: 'A product delivered to customers',
@@ -214,7 +212,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'An insurance company is divesting one of its personal insurance lines. Which action should the business architecture practitioner pursue first?',
     options: {
       A: 'Deliver strategic objective input to the newly divested business',
@@ -224,7 +222,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'As a basic starting point for turning strategy into actionable results, business challenges and objectives should be mapped to which business architecture domain category?',
     options: {
       A: 'Organization',
@@ -234,7 +232,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A large retail company has a strong desire to establish a joint venture in a global location to increase manufacturing and research/development capabilities. Which business architecture practice helps identify the manner in which the two organizations can combine capabilities to optimize stakeholder value of the joint venture?',
     options: {
       A: 'Information mapping',
@@ -244,7 +242,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is the relationship between business architecture and the System Development Lifecycle (SDLC)?',
     options: {
       A: 'The SDLC provides a framework under which business architecture is deployed',
@@ -254,7 +252,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is a benefit of business performance management?',
     options: {
       A: 'It delivers a solution roadmap to the business, outlining initiative priorities',
@@ -264,7 +262,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'To which IT architecture domain does information mapping closely relate?',
     options: {
       A: 'Data',
@@ -274,7 +272,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which approach should a company take to determine the number of metrics utilized when establishing business performance metrics?',
     options: {
       A: 'Identify a handful of select organizational and performance metrics that are most important to the\noverall business',
@@ -284,7 +282,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a benefit of business architecture?',
     options: {
       A: 'It establishes a business strategy for business units and the enterprise',
@@ -294,7 +292,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'When designing an automation solution, what is an effective business architecture perspective for providing input to SOA services orchestration and reusability?',
     options: {
       A: 'Business unit to capability mapping',
@@ -304,7 +302,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A business architecture practitioner is responsible for:',
     options: {
       A: 'Identifying and evaluating investment opportunities',
@@ -314,7 +312,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Organizations are motivated to leverage business architecture to improve business requirements analysis by the ability to:',
     options: {
       A: 'Structure agile user stories within a Scaled Agile Framework',
@@ -324,7 +322,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which statement about business models and business architecture is accurate?',
     options: {
       A: 'A business architecture requires a pre-existing business model as a starting point',
@@ -334,7 +332,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A business unit wants to enable a new capability. How should the capability be represented on a heat map?',
     options: {
       A: 'In red, indicating a poor score for the capability',
@@ -344,7 +342,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A company is establishing a business architecture practice of information mapping. Practitioners have identified an implicit information concept that is not formally articulated today. In order for the data architecture to consume or leverage this information, the information should be:',
     options: {
       A: 'Omitted from the data architecture for being non-explicit',
@@ -354,7 +352,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'As it pertains to initiative investment and planning, a business architecture practitioner is responsible for:',
     options: {
       A: 'Identifying projects for implementation',
@@ -364,7 +362,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A business architecture practitioner:',
     options: {
       A: 'Translates strategy into actionable project plans',
@@ -374,7 +372,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'SOA services are distinct, non-ambiguous and non-redundant. Which business representation shares these characteristics? IT Certification Guaranteed, The Easy Way! 8',
     options: {
       A: 'Capabilities',
@@ -384,7 +382,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Within the business architecture context, how should one complete the statement: "Strategies are only as good as..."?',
     options: {
       A: 'The funding that enables and sustains them',
@@ -394,7 +392,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A principle associated with the business architecture knowledgebase is that the knowledgebase is:',
     options: {
       A: 'Built upon a relational database management system',
@@ -404,7 +402,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A company offers a product that is a rebranded product from a third party business partner. What should the business architecture practitioner for the company do?',
     options: {
       A: "Omit the product from the company's product map",
@@ -414,7 +412,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A business architecture practitioner should manage relationships for which category of stakeholders?',
     options: {
       A: 'End consumers',
@@ -424,7 +422,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A value stream is comprised of what?',
     options: {
       A: 'Stages',
@@ -434,7 +432,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a benefit of aligning business architecture with Lean Six Sigma?',
     options: {
       A: 'Business architecture serves as a prerequisite for establishing Lean Six Sigma value streams',
@@ -444,7 +442,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A benefit of leveraging business architecture in the context of System Development Lifecycle (SDLC) initiative planning is that it enables the business to frame projects within the context of:',
     options: {
       A: 'The impact on business processes',
@@ -454,7 +452,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Capability decomposition:',
     options: {
       A: 'Produces business processes',
@@ -464,7 +462,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'In a well-constructed capability map, the map represents:',
     options: {
       A: 'A project portfolio',
@@ -474,7 +472,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What does a capability heat map represent?',
     options: {
       A: 'Effectiveness of a given capability',
@@ -484,7 +482,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which cross-mapping is commonly used as a way to understand where a certain organization may have unique versus overlapping abilities?',
     options: {
       A: 'Business unit to location cross-mapping\nIT Certification Guaranteed, The Easy Way!\n10',
@@ -494,7 +492,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What accurately describes an information map?',
     options: {
       A: 'A semantic web',
@@ -504,7 +502,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Business strategies are realized through:',
     options: {
       A: 'Mergers and acquisitions',
@@ -514,7 +512,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which situation is likely to result in the creation of a relationship between one information concept and another information concept?',
     options: {
       A: 'Stakeholder Management represents both customer and business partner',
@@ -524,7 +522,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Business process models arise from which business perspective?',
     options: {
       A: 'The business architecture',
@@ -534,7 +532,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A holistic perspective on enterprise architecture is described as a/an:',
     options: {
       A: 'Framework for strategic business planning',
@@ -544,7 +542,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a value stream?',
     options: {
       A: 'A stakeholder triggered, end-to-end perspective',
@@ -554,7 +552,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which business architecture perspectives are commonly used to identify current state business challenges and future state business vision?',
     options: {
       A: 'Decisions and events',
@@ -564,7 +562,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'The role of a business architecture team mentor is to:',
     options: {
       A: 'Manage the work of the business architecture team',
@@ -574,7 +572,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'You are a portfolio manager who was assigned to help prioritize various projects under consideration for funding in this coming year. You have heat-mapped capabilities, value streams and value stream / capability cross-mappings for the business areas targeted by these projects. You have been asked to quickly provide feedback on more than three dozen projects. Projects should be prioritized based on their ability to:',
     options: {
       A: 'Improve effectiveness of high impact stakeholders and product categories',
@@ -584,7 +582,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which related, but separate, discipline is combined with business architecture to find and analyze opportunities for operational cost reduction?',
     options: {
       A: 'IT architecture',
@@ -594,7 +592,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a benefit of using business architecture information maps to inform data architecture?',
     options: {
       A: 'It articulates security related requirements for the data architecture',
@@ -604,7 +602,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: "Which business architecture enabled analysis approach helps an executive identify revenue streams highlighted in the company's business model?",
     options: {
       A: 'Highlighting all business capabilities associated with money management',
@@ -614,7 +612,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A target state IT architecture that effectively aligns to business vision is achieved by taking which transformational path?',
     options: {
       A: 'Transformation of the data and application architectures, as dictated by IT best practices',
@@ -624,7 +622,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A group of architects have agreed to the following: 1. The capability map will dictate, where possible, definitions and terms used in the information map. 2. The capability map will be used to frame the definition and automation of various SOA services. 3. The information map will be used to frame business data terminology and relationships used to craft the data architecture. What is the predictive result?',
     options: {
       A: 'Business processes will effectively align with SOA services',
@@ -634,7 +632,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What should the Business Architecture Maturity Model provide the organization?',
     options: {
       A: 'Guidance on how to establish sponsorship and governance',
@@ -644,7 +642,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the value business architecture provides to inform, align and drive solution architecture?',
     options: {
       A: 'Establishes an agile requirements approach and methodology',
@@ -654,7 +652,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'When mapping capabilities to value streams, a business architecture practitioner should:',
     options: {
       A: 'Incorporate business unit into the mapping',
@@ -664,7 +662,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A project team is attempting to build an SOA service. Which business perspective should be aligned to information concepts to inform the team of the data the service needs to access?',
     options: {
       A: 'Capability',
@@ -674,7 +672,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a comprehensive definition of stakeholders?',
     options: {
       A: 'Employees and any internally defined business roles within the organization',
@@ -684,7 +682,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business architecture perspective is useful in framing business design discussions and case management automation insights?',
     options: {
       A: 'Value streams',
@@ -694,7 +692,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which business architecture perspective is useful in requirements elicitation in terms of knowing "who and what to ask" in a specific value focused context?',
     options: {
       A: 'Business unit / business process / stakeholder',
@@ -704,7 +702,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What are the Business / IT Architecture Transformation Framework components that frame the foundation for business / IT architecture transformation?',
     options: {
       A: 'Business vision and strategy, business initiatives, as-is IT architecture and long-term IT vision',
@@ -714,7 +712,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Execution of a successful business architecture effort requires:',
     options: {
       A: 'Willingness to pilot change options and adopt the one with optimal cost/benefit results',
@@ -724,7 +722,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Which business architecture perspective provides a clear indicator of where business process improvement opportunities may exist?',
     options: {
       A: 'Business capability heat maps',
@@ -734,7 +732,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What are the perspectives of the Kaplan and Norton Balanced Scorecard?',
     options: {
       A: 'Financial, customer, internal, learning, growth',
@@ -744,7 +742,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a comprehensive definition of the term strategy?',
     options: {
       A: 'A checklist that can be used to establish project plans and program deployments',
@@ -754,7 +752,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business architecture perspective is commonly tied directly to stakeholder?',
     options: {
       A: 'Product',
@@ -764,7 +762,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which factors drive the level of sophistication required in a business architecture tool at a given organization?',
     options: {
       A: 'In-house software tooling policies and protocols',
@@ -774,7 +772,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: "What is a business architecture practitioner's role when defining scope for a business solution?",
     options: {
       A: 'Determining the level of responsibility of the primary stakeholder',
@@ -784,7 +782,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a key challenge when a business architecture center of excellence reports to a business leader?',
     options: {
       A: 'Accessing business strategy and plans',
@@ -794,7 +792,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the central focal point of an organization map?',
     options: {
       A: 'Capability',
@@ -804,7 +802,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is considered a business blueprint?',
     options: {
       A: 'Porter value chain',
@@ -814,7 +812,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which business architecture perspective is commonly used to assess the alignment of a Lean Six Sigma perspective and business architecture? IT Certification Guaranteed, The Easy Way! 16',
     options: {
       A: 'Value stream',
@@ -824,7 +822,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which aspect of business architecture should be utilized on a business unit operational improvement?',
     options: {
       A: 'Considering customer, trading partner and collaborative partner needs',
@@ -834,7 +832,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is considered to be a core business architecture domain?',
     options: {
       A: 'Strategy',
@@ -844,7 +842,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Business architecture arises from which business perspective?',
     options: {
       A: 'Business strategy',
@@ -854,7 +852,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is a benefit of organization mapping?',
     options: {
       A: 'It defines the foundation for the business vocabulary',
@@ -864,7 +862,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A proposed business initiative is targeting multiple business capabilities. The business architecture practitioner should rate the business value of the project based on the:',
     options: {
       A: 'Aggregated effectiveness and impact ratings of all capabilities affected by the initiative',
@@ -874,7 +872,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which business architecture perspective is used for identifying business process role definitions?',
     options: {
       A: 'Stakeholder to capability relationship mapping',
@@ -884,7 +882,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Business architecture practitioners work with:',
     options: {
       A: 'Operations managers to assess resource acquisition',
@@ -894,7 +892,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business architecture mapping perspective provides supply chain analysts with insights into third party value exchange?',
     options: {
       A: 'Capability mapping',
@@ -904,7 +902,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'In the business architecture metamodel, domain categories and relationships are:',
     options: {
       A: 'Inclusive of business processes and business requirements',
@@ -914,7 +912,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: "A business architecture practitioner's role in facilitating strategic business alignment is to:",
     options: {
       A: 'Translate business unit imperatives and architecture into consolidated detailed designs',
@@ -924,7 +922,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Business architecture practitioners should have the basic ability to:',
     options: {
       A: 'Craft agile business requirements to address a specific business issue',
@@ -934,7 +932,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is the primary business architecture tooling requirement in a scenario where a lightweight business architecture tool is going to coexist with an enterprise architecture tool?',
     options: {
       A: 'Enough budget to ensure that both tools can be funded for a long-term period of time',
@@ -944,7 +942,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which business blueprint is useful for mapping initiatives to business objectives and key performance indicators?',
     options: {
       A: 'Hoshin Kanri',
@@ -954,7 +952,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is the primary benefit of applying business architecture when analyzing the impact of globalization?',
     options: {
       A: 'It highlights high risk locations where expansion may undesirable and not recommended',
@@ -964,7 +962,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the definition of case management?',
     options: {
       A: 'A technical design solution that does not require a business perspective',
@@ -974,7 +972,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a benefit of using business architecture performance analysis in conjunction with business / IT architecture alignment?',
     options: {
       A: 'Improved clarity as to how to improve the overall data architecture',
@@ -984,7 +982,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which business architecture domain is commonly mapped to value stream to enable business IT Certification Guaranteed, The Easy Way! 19 planning?',
     options: {
       A: 'Capability',
@@ -994,7 +992,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Who is best qualified to identify, name and define a given capability?',
     options: {
       A: 'A person who has and exercises that capability',
@@ -1004,7 +1002,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is an accurate description of business architecture?',
     options: {
       A: 'An agile requirements, user story specification technique',
@@ -1014,7 +1012,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business architecture perspective ensures that business requirements address business weaknesses or limitations?',
     options: {
       A: 'Product heat maps',
@@ -1024,7 +1022,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is true about business architecture and business processes?',
     options: {
       A: 'Business processes are part of the core or foundational business architecture perspective',
@@ -1034,7 +1032,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A business wants to improve its ability to establish viable products and reduce the percentage of failed products in its portfolio. Management is not sure where the issues lie today and needs help assessing the situation. Which perspective represents an effective starting point and focus for business performance analysis?',
     options: {
       A: 'The "Deliver Product" value stream going from concept to completion',
@@ -1044,7 +1042,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'An executive team of portfolio managers is trying to determine if various initiatives intersect on common business focal points in order to avoid work on overlapping or redundant projects. Which business architecture perspectives should be incorporated into initiative mapping to perform this analysis?',
     options: {
       A: 'Value streams and business processes',
@@ -1054,7 +1052,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a principle of the Business Architecture Maturity Model?',
     options: {
       A: 'It measures the levels of success or failure of business strategy and goals',
@@ -1064,7 +1062,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'In which situation should management make organization mapping a priority?',
     options: {
       A: 'There is general agreement across business units regarding shared capabilities',
@@ -1074,7 +1072,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What does articulating a value stream require?',
     options: {
       A: 'Value stream stage decomposition into multiple sub-stages',
@@ -1084,7 +1082,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'The Norton Kaplan Strategy Map creates a mapping of strategy that represents which hierarchical relationship?',
     options: {
       A: 'Lower level to higher level business objectives',
@@ -1094,7 +1092,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'In order to effectively govern the practice of business architecture, executive sponsorship should be established:',
     options: {
       A: 'Incrementally as needed',
@@ -1104,7 +1102,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'As a business architecture domain category, which definition of a policy is correct?',
     options: {
       A: 'A course or principle of action',
@@ -1114,7 +1112,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a comprehensive definition of an initiative?',
     options: {
       A: 'A business investment requiring capital funding',
@@ -1124,7 +1122,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A commonly used definition of a business model states that a business model:',
     options: {
       A: 'Is a combination of various business architecture mapping perspectives',
@@ -1134,7 +1132,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'In addition to value streams and capabilities, the domains of business architecture that should be used when shifting to a customer-centric business model are:',
     options: {
       A: 'Products and processes',
@@ -1144,7 +1142,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A benefit of product mapping is that it:',
     options: {
       A: 'Provides context for aligning business objectives with initiatives',
@@ -1154,7 +1152,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'In investment analysis, business architecture:',
     options: {
       A: 'Leverages the capability map as a standalone blueprint',
@@ -1164,7 +1162,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: "What is a key factor in an organization's ability to transform itself in a business architecture context?",
     options: {
       A: 'Access to capital to fund initiatives in a timely manner',
@@ -1174,7 +1172,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Capabilities are based on business:',
     options: {
       A: 'Objects',
@@ -1184,7 +1182,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'A common starting point for stakeholder mapping is:',
     options: {
       A: 'Board members, business executives and investors',
@@ -1194,7 +1192,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: "A business architecture practitioner's advisory role is described as trusted advisor to:",
     options: {
       A: 'IT as a liaison to the business',
@@ -1204,7 +1202,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'How should an organization visualize where it wants to take the business to in the future?',
     options: {
       A: 'Mapping current state systems to the target business model',
@@ -1214,7 +1212,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is an example of a business model framework?',
     options: {
       A: "Porter's Five Forces Model",
@@ -1224,7 +1222,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is the purpose of the business architecture knowledgebase?',
     options: {
       A: 'It provides a centralized location in which business architects can store business architecture\nblueprints and related artifacts for record keeping purposes',
@@ -1234,7 +1232,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is the primary business architecture focal point when undertaking a change management initiative?',
     options: {
       A: 'Enterprise objective setting',
@@ -1244,7 +1242,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What does the Business Architecture Maturity Model assess?',
     options: {
       A: 'Business performance',
@@ -1254,7 +1252,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is the goal of a value stream?',
     options: {
       A: 'To satisfy or delight the customer',
@@ -1264,7 +1262,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which business architecture domain is cross-mapped with value streams to highlight the impact of a change management initiative on the business?',
     options: {
       A: 'Capability\nIT Certification Guaranteed, The Easy Way!\n24',
@@ -1274,7 +1272,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is the basic building block of the organization map?',
     options: {
       A: 'Capability',
@@ -1284,7 +1282,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is a principle of product mapping?',
     options: {
       A: 'A product name is unique for each individual business unit',
@@ -1294,7 +1292,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'How does a shift in strategy impact business capabilities?',
     options: {
       A: 'Business capabilities would have to be heat mapped again',
@@ -1304,7 +1302,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'As a company aligns its IT applications to business architecture, what describes a primary relationship between business architecture and application systems?',
     options: {
       A: 'Processes are defined by applications',
@@ -1314,7 +1312,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Business / IT architecture transformation is defined as:',
     options: {
       A: 'The state in which systems are aligned to capabilities',
@@ -1324,7 +1322,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What are the essential components of the Business Architecture Framework?',
     options: {
       A: 'Methodology, software tools and vignettes',
@@ -1334,7 +1332,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the overriding benefit provided by business architecture in a globalization scenario?',
     options: {
       A: 'It recognizes capability overlaps that must be eliminated in order to support global expansion',
@@ -1344,7 +1342,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'During business architecture mapping efforts, it is the responsibility of the highest ranking business sponsor representative to:',
     options: {
       A: 'Provide direction and specify the approach for mapping',
@@ -1354,7 +1352,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'In addition to capability and business unit, which business architecture domain completes the application architecture mapping perspective?',
     options: {
       A: 'Initiative',
@@ -1364,7 +1362,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is the benefit of heat mapping the capability map when conceiving, building and launching a new product?',
     options: {
       A: 'It identifies the resources required to deploy the new product',
@@ -1374,7 +1372,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a principle of business performance management?',
     options: {
       A: 'Considers financial earnings as an essential input',
@@ -1384,7 +1382,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Business architecture is defined by the scope of:',
     options: {
       A: 'The business',
@@ -1394,7 +1392,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a definitive indicator of how important a capability is to the business?',
     options: {
       A: 'Being a level one capability',
@@ -1404,7 +1402,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A basic principle of business architecture is that business architecture is:',
     options: {
       A: 'Not prescriptive',
@@ -1414,7 +1412,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is a benefit of aligning business architecture and IT architecture?',
     options: {
       A: 'Technical debt can be more effectively defined and eradicated',
@@ -1424,7 +1422,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'In order to accurately assess the specific value an initiative plans to deliver to a customer, to what should that initiative be mapped?',
     options: {
       A: 'Capability',
@@ -1434,7 +1432,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: "A company has decided to form a joint venture with a vendor supplier of an outsourced capability. What is the impact to the company's pre-joint venture capability map?",
     options: {
       A: 'The joint venture adds business capabilities to the map',
@@ -1444,7 +1442,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is the purpose of a dynamic rules-based routing map?',
     options: {
       A: 'To establish relationships across multiple business process models',
@@ -1454,7 +1452,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What do a value stream and a business process have in common?',
     options: {
       A: 'Each shows the business "in motion," moving left to right',
@@ -1464,7 +1462,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'It is important to apply change management when establishing a business architecture practice because it:',
     options: {
       A: 'Helps business architecture practitioners transition into their new roles',
@@ -1474,7 +1472,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'To ensure that initiatives are aligned to strategy, an initiative should be:',
     options: {
       A: 'Vetted by strategic planning committees',
@@ -1484,7 +1482,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Assuming that an insurance / multi-service financial institution has multiple divisions with multiple products and partners, the minimum number of value streams that could represent customer product acquisition is as many as needed to represent:',
     options: {
       A: 'All product lines',
@@ -1494,7 +1492,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A benefit of leveraging business architecture in the context of defining a solution architecture is that it:',
     options: {
       A: 'Defines where technological gaps should be prioritized to assist with technology architecture\ndesign',
@@ -1504,7 +1502,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A capability that has been automated:',
     options: {
       A: 'Is a service',
@@ -1514,7 +1512,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'A strong motivation for pursuing stakeholder mapping efforts is that stakeholder mapping:',
     options: {
       A: 'Establishes role definitions for business process modeling efforts',
@@ -1524,7 +1522,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the primary mapping activity that supports regulatory compliance management?',
     options: {
       A: 'Policy mapping',
@@ -1534,7 +1532,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'In which business architecture perspective are stakeholder types normally reflected?',
     options: {
       A: 'Product mapping',
@@ -1544,7 +1542,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a benefit of value stream mapping?',
     options: {
       A: 'It helps envision value delivery for participating stakeholders',
@@ -1554,7 +1552,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What will drive a business architecture team to establish and deploy a formal business architecture knowledgebase?',
     options: {
       A: 'Value streams, capabilities and related cross-mappings are being managed using a sophisticated\nspreadsheet',
@@ -1564,7 +1562,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What are the key benefits to piloting a business architecture approach prior to establishing a practice area within an organization?',
     options: {
       A: 'It provides executive visibility and jump starts business architecture baseline',
@@ -1574,7 +1572,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'How does business architecture benefit business performance management?',
     options: {
       A: 'It produces insights into system development lifecycle improvements',
@@ -1584,7 +1582,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is an example of a business architecture scenario?',
     options: {
       A: 'Strategy map',
@@ -1594,7 +1592,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is an aspect of dynamic rules-based routing maps and routing map worksheets?',
     options: {
       A: 'Event trigger',
@@ -1604,7 +1602,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is true about capability definitions?',
     options: {
       A: 'All capabilities require definitions',
@@ -1614,7 +1612,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: "What is the business architecture practitioner's role when there is a change in strategy?",
     options: {
       A: 'Compare system and process architectures within business capabilities and develop business\nrequirements to align them',
@@ -1624,7 +1622,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Which perspective closely ties a business requirement to business strategy?',
     options: {
       A: 'A policy',
@@ -1634,7 +1632,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What are the four domains of IT architecture?',
     options: {
       A: 'Application, Data, Infrastructure and Content',
@@ -1644,7 +1642,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is the correct sequence of events when establishing a business architecture practice within an organization?',
     options: {
       A: 'Create business architecture baseline, socialize baseline to obtain buy-in and then communicate\nbusiness value',
@@ -1654,7 +1652,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is a core competency for a business architecture practitioner?',
     options: {
       A: 'Collaboration',
@@ -1664,7 +1662,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Under which circumstances should an organization select a lightweight business architecture tool over a more comprehensive enterprise architecture tool?',
     options: {
       A: "The CIO wants to establish an in-house capacity to manage the organization's software portfolio",
@@ -1674,7 +1672,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the overriding benefit of using business architecture in conjunction with application portfolio management?',
     options: {
       A: 'It provides an application architecture componentization perspective',
@@ -1684,7 +1682,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'When approaching and socializing a business architecture practice, a successful business architecture practitioner should:',
     options: {
       A: 'Think globally, but act locally',
@@ -1694,7 +1692,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'In addition to capability, which business architecture domain is commonly heat mapped to enable business performance analysis?',
     options: {
       A: 'Stakeholder',
@@ -1704,7 +1702,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is a benefit of synchronized business / IT architecture transformation?',
     options: {
       A: 'It establishes clarity in technical architecture definition and framing',
@@ -1714,7 +1712,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What accurately describes future state capabilities?',
     options: {
       A: 'They are capabilities that have yet to be automated',
@@ -1724,7 +1722,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Business architecture team principles are described as:',
     options: {
       A: 'A set of principles that guide the decisions of the business',
@@ -1734,7 +1732,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'What is a business benefit of leveraging business architecture to design, deploy and manage SOA services?',
     options: {
       A: 'It enables IT solutions to more effectively implement business processes across multiple business\nunits',
@@ -1744,7 +1742,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A business architecture practitioner helps an organization clarify how to change by:',
     options: {
       A: 'Developing a new business model',
@@ -1754,7 +1752,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'From which primary source are information concepts and definitions derived?',
     options: {
       A: 'Business units',
@@ -1764,7 +1762,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which discipline is considered to be a part of the extended business architecture?',
     options: {
       A: 'Strategy mapping',
@@ -1774,7 +1772,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'What is an appropriate tool for representing relationships among strategic objectives, initiatives and key performance indicators?',
     options: {
       A: 'SWOT diagrams',
@@ -1784,7 +1782,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What provides the strongest indication of misaligned projects when performing an analysis of potential initiatives supporting a common strategy?',
     options: {
       A: 'The financial analysis identifies a negative net present value',
@@ -1794,7 +1792,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Which capability serves as a key focal point for deploying a case management environment?',
     options: {
       A: 'Fuel Management',
@@ -1804,7 +1802,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which value does business architecture provide to case management?',
     options: {
       A: 'It identifies automation points for case management technology solutions',
@@ -1814,7 +1812,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Within the context of business architecture, the term "governance" refers to:',
     options: {
       A: 'Decision authority and approval process',
@@ -1824,7 +1822,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which scenario should benefit from using a case management solution?',
     options: {
       A: 'Assembly-like workflow in a manufacturing scenario',
@@ -1834,7 +1832,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What constrains an organization map?',
     options: {
       A: 'The boundaries of the legal entity focal point',
@@ -1844,7 +1842,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A well-structured business architecture value proposition contains:',
     options: {
       A: 'Business goals, timelines, delivery times, and skill sets',
@@ -1854,7 +1852,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'A product map should obtain product names from which source?',
     options: {
       A: 'Customers',
@@ -1864,7 +1862,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What is a valid business information concept candidate?',
     options: {
       A: 'Automobile',
@@ -1874,7 +1872,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'What provides a clear indication that important information mapping relationships were IT Certification Guaranteed, The Easy Way! 35 poorly implemented in practice?',
     options: {
       A: 'Inability to visualize new workflow solutions flowing through a value stream',
@@ -1884,7 +1882,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: "A central component of Porter's Five Forces Model is:",
     options: {
       A: 'Cost',
@@ -1894,7 +1892,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'A business wants to shift from a product line and business unit centric business model to a customer centric business model. This would involve major business as well as IT transformation. Which baseline business frame of reference will provide the best foundation for such a transformation?',
     options: {
       A: 'A well-defined information map and resulting conceptual and logical data architecture',
@@ -1904,7 +1902,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'In a business architecture context, changes to facilities and equipment:',
     options: {
       A: "Result from an organization's strategic direction and operational issues",
@@ -1914,7 +1912,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'Which business architecture perspective is useful for identifying how to improve or capitalize on business model-defined Key Partnerships?',
     options: {
       A: 'Capability to value stream mapping',
@@ -1924,7 +1922,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which business architecture cross-mapping should be used as a starting point when implementing a regulation that prohibits the use of a confidential personal identifier?',
     options: {
       A: 'Capability / Application',
@@ -1934,7 +1932,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'How can utilizing business architecture help when shifting to a customer-centric business model?',
     options: {
       A: 'It provides guidance on selection of a new customer relationship management system',
@@ -1944,7 +1942,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'In business architecture, a service is:',
     options: {
       A: 'A pre-bundled sets of capabilities',
@@ -1954,7 +1952,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Unlike business architecture, business requirements analysis describes what the business:',
     options: {
       A: 'Currently does',
@@ -1964,7 +1962,7 @@ const quizData = [
     },
     answer: 'B'
   },
-  {
+{
     question: 'Which course of action will likely lead to effective policy compliance?',
     options: {
       A: 'Policy centralization',
@@ -1974,7 +1972,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'A structured business architecture approach can reduce real and inherent costs resulting from:',
     options: {
       A: 'Discrepancies between culture and values\nIT Certification Guaranteed, The Easy Way!\n37',
@@ -1984,7 +1982,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business architecture perspective helps ensure that multiple business requirements teams utilize a common business vocabulary across multiple business units?',
     options: {
       A: 'Initiative',
@@ -1994,7 +1992,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'At which maturity level is an organization that has no formal business architecture mappings, business architects or business architecture function?',
     options: {
       A: 'Level 1',
@@ -2004,7 +2002,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'A business that uses The Open Group Architecture Framework (TOGAF) Architecture Development Method (ADM) wants to ensure that its value stream and capability based business architecture approach can be leveraged within its overall enterprise architecture. Which approach will accomplish this goal?',
     options: {
       A: 'Incorporate business architecture principles into TOGAF ADM Framework and Principles',
@@ -2014,7 +2012,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is the impact of corporate governance on business architecture?',
     options: {
       A: 'It assigns responsibility and accountability for the issue escalation process to minimize project lag\ntime',
@@ -2024,7 +2022,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a benefit of leveraging business architecture as a distinct domain within enterprise architecture?',
     options: {
       A: 'It facilitates the integration of strategic planning through solution deployment',
@@ -2034,7 +2032,7 @@ const quizData = [
     },
     answer: 'A'
   },
-  {
+{
     question: 'In which circumstance should the Porter value chain be used instead of a business architecture value stream?',
     options: {
       A: 'A government agency wants to define an end-to-end perspective for motor vehicle licensing',
@@ -2044,7 +2042,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Work defined by a value stream:',
     options: {
       A: 'Represents a "happy path"',
@@ -2054,7 +2052,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What is a major benefit of initiative mapping?',
     options: {
       A: 'It assists in tracking the achievement of strategic business objectives',
@@ -2064,7 +2062,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What principle strictly constrains the business architecture value stream that differentiates it from a Lean Six Sigma value stream?',
     options: {
       A: 'Focus on business versus technology',
@@ -2074,7 +2072,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'What does a business architecture information map bring to data architecture?',
     options: {
       A: 'Detailed data attributing guidance in regards to given data values',
@@ -2084,7 +2082,7 @@ const quizData = [
     },
     answer: 'D'
   },
-  {
+{
     question: 'Which business situation should be analyzed using a value stream?',
     options: {
       A: 'Defining a detailed billing and collection process',
@@ -2094,7 +2092,7 @@ const quizData = [
     },
     answer: 'C'
   },
-  {
+{
     question: 'Which business architecture perspective augments capability-to-application mapping to further application portfolio consolidation analysis?',
     options: {
       A: 'Initiative',
@@ -2105,6 +2103,7 @@ const quizData = [
     answer: 'D'
   }
 ];
+
 export default function CBAQuizApp() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [shuffledQuestions, setShuffledQuestions] = useState(() => quizData.sort(() => 0.5 - Math.random()));
